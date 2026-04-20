@@ -1,0 +1,61 @@
+/* 1. RESET CHUẨN - BẮT BUỘC PHẢI CÓ DẤU * */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. CĂN GIỮA TOÀN BỘ TRANG */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    
+    display: flex;
+    flex-direction: column; /* Xếp các phần tử theo hàng dọc */
+    justify-content: center; /* Căn giữa theo chiều dọc của màn hình */
+    align-items: center;     /* Căn giữa theo chiều ngang của màn hình */
+    
+    min-height: 100vh;       /* Chiều cao phủ hết màn hình để căn giữa dọc được */
+    margin: 0;
+}
+
+/* 3. KHUNG CHỨA (Container) */
+.container {
+    background: white;
+    width: 90%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+
+    /* Ép nội dung bên trong container cũng xếp dọc và ra giữa */
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+
+/* 4. AVATAR TRÒN */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;      /* Bo tròn 100% */
+    object-fit: cover;
+    border: 5px solid #3498db;
+    margin-bottom: 15px;      /* Khoảng cách với cái tên bên dưới */
+    display: block;
+}
+
+/* 5. TÊN VÀ CHỮ */
+h1 {
+    font-size: 26px;
+    color: #2d3436;
+    margin-bottom: 10px;
+}
+
+/* Các mục thông tin bên dưới nếu muốn căn trái cho dễ đọc */
+.muc-info {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+}
