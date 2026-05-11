@@ -1,0 +1,43 @@
+.container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: Arial;
+    background-color: bisque;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* INPUT */
+input {
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+/* GIỚI TÍNH nằm 1 hàng */
+.form-group label input[type="radio"] {
+    width: auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* nhóm radio nằm ngang */
+.form-group .gender-row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
