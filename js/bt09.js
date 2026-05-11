@@ -14,5 +14,9 @@ function inBangCuuChuong() {
     }
 
     result.innerHTML = output;
+<<<<<<< HEAD
 }
  
+=======
+}
+>>>>>>> 503f0430976de94c870139d81cb44e4e0305a82b
